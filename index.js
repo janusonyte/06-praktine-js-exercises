@@ -82,11 +82,11 @@ console.log("#6 - END");
 
 function multiplication(num){
     let mult = 0;
+    let str = ''
     for(index = 1; index < 11; index++){
         mult = index * num;
-        console.log(`${index} * ${num} = ${mult}`)
+        str = str + `${index} * ${num} = ${mult}\n` 
     }
-    return true; //kitaip = undefined
+    return str;
 }
-
 console.log(multiplication(3));
