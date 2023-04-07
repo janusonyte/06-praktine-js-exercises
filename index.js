@@ -63,3 +63,19 @@ console.log("#5 - END");
 
 //Uzduotis #6:
 
+function comparisonNum(n1, n2){
+    if(n1 > n2){
+        return `${n1} yra didesnis skaičius`
+    } else if (n1 < n2 ){
+        return `${n2} yra didesnis skaičius`
+    } else {
+        return `abu skaičiai lygūs`
+    }
+}
+
+console.log(comparisonNum(10,20));
+console.log(comparisonNum(2,-1));
+console.log(comparisonNum(10,10));
+console.log("#6 - END");
+
+//
