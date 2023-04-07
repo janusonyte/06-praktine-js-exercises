@@ -78,4 +78,15 @@ console.log(comparisonNum(2,-1));
 console.log(comparisonNum(10,10));
 console.log("#6 - END");
 
-//
+//Uzduotis #7:
+
+function multiplication(num){
+    let mult = 0;
+    for(index = 1; index < 11; index++){
+        mult = index * num;
+        console.log(`${index} * ${num} = ${mult}`)
+    }
+    return true; //kitaip - undefined
+}
+
+console.log(multiplication(3));
