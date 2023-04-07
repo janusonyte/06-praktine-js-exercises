@@ -86,7 +86,7 @@ function multiplication(num){
         mult = index * num;
         console.log(`${index} * ${num} = ${mult}`)
     }
-    return true; //kitaip - undefined
+    return true; //kitaip = undefined
 }
 
 console.log(multiplication(3));
